@@ -19,11 +19,10 @@ import streamlit as st
 import seaborn as sns
 import joblib
 
-"""# Title"""
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title('Hello, Friends. thank you for visitting') 
-st.write("""Iam Dera. This is my very first machine learning web-based application. The main idea of this program is to connect machine learning algorithm with website so that the user can use it
+st.write("""This is my very first machine learning web-based application. The main idea of this program is to connect machine learning algorithm with website so that the user can use it
 """)  
 st.write("""Covid 19 is really iritating for me, because i can not be as free as i was when i am about to have a date with bybyn. but fortunately somehow we managed to survive xoxo
 Being a data scientist is one of my biggest dreams, that is why i am trying to participate fighting COVID 19 with data science.
