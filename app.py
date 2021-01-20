@@ -30,8 +30,6 @@ Being a data scientist is one of my biggest dreams, that is why i am trying to p
 These are list of model that can be used in this app (Look at sidebar to choose your model) : 
 
 
-Support Vector Machine  Accuracy :  17.7%
-Support Vector Machine  Precision : 0.17 
 
 K Nearest Neighbors  Accuracy :  6.5%
 K Nearest Neighbors  Precision : 0.0
@@ -189,7 +187,7 @@ for m,n in zip(keys, val) :
 
 model= st.sidebar.selectbox(
     'Select The Model You want to use to predict :' ,
-    ('Support Vector Machine' , 'K Nearest Neighbors', 'Logistic Regression','Multinomial Naive Bayes')
+    ('K Nearest Neighbors', 'Logistic Regression','Multinomial Naive Bayes')
 )  
 mode=joblib.load(model+'.sav') 
 res=mode.predict([list(us.values())]) 
