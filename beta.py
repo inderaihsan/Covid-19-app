@@ -39,12 +39,13 @@ Logistic Regression  Precision : 0.107
 Multinomial Naive Bayes  Accuracy :  21.4%
 Multinomial Naive Bayes  Precision : 0.21 
 
- as the Accuracy only reaches below 25% :( if you are willing to have a discussion feel free to contact me :)  
+The algorithm used in this app is still in development stage, as the Accuracy only reaches below 25% :( if you are willing to have a discussion feel free to contact me :)  
 """)
 
 
 
 """# Let's fill the sidebar with your data"""
+""" Press the arrows on the top left screen on your phone"""
 
 age= st.sidebar.selectbox(
     'How Old Are you?',
